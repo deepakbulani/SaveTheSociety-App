@@ -14,13 +14,13 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="140dp"
+        android:layout_height="170dp"
         android:paddingBottom="10dp"
         android:layout_gravity="center_horizontal">
 
         <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
             android:id="@+id/call"
             android:layout_weight="40"
             android:src="@drawable/call" />
@@ -29,11 +29,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/textView2"
-            android:layout_weight="20" />
+            android:layout_weight="200" />
 
         <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
             android:id="@+id/location"
             android:layout_weight="40"
             android:src="@drawable/location" />
@@ -43,20 +43,25 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="180dp"
         android:paddingBottom="10dp">
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:id="@+id/textView"
+            android:src="@drawable/images" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView3"
-            android:layout_weight="25" />
+            android:layout_weight="200" />
 
         <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_width="155dp"
+            android:layout_height="151dp"
             android:id="@+id/siren"
-            android:layout_weight="50"
             android:src="@drawable/siren" />
 
         <TextView
@@ -80,16 +85,10 @@
             android:layout_weight=".55" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
             android:src="@drawable/off"
             android:id="@+id/imageButton" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:id="@+id/textView5"
-            android:layout_weight=".55" />
 
     </LinearLayout>
 
